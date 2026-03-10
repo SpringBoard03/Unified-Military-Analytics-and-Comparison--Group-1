@@ -108,20 +108,6 @@ This file contains the processed and standardized data ready for analysis.
 
 ---
 
-# Repository Structure
-
-```
-milestone-01
-│
-├── milestone01.ipynb
-├── README.md
-└── data
-    ├── raw_military_data.csv
-    └── military_cleaned_data.csv
-```
-
----
-
 # Outcome
 
 At the end of this milestone:
