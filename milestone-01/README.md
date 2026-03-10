@@ -1,119 +1,105 @@
-# Milestone 01 – Data Collection and Preparation
+# **Milestone 01 — Data Collection & Preparation**
 
-## Project Overview
+## **Objective**
 
-This milestone focuses on collecting and preparing global military strength data for further analysis. The data is gathered from an online source and then cleaned and structured so it can be used for analysis, dashboards, and comparisons between countries.
+Collect global military strength data from the source website and transform the raw information into a **clean and structured dataset** suitable for further **analysis and visualization**.
 
-The goal is to transform raw web data into a clean dataset that can support future insights about global military capabilities.
+## **Approach**
 
----
+A **Python-based workflow** was implemented to automate the **data collection and preparation process**.
 
-# Milestone 01 Architecture
+The approach involved:
 
-The following architecture shows how data flows in this milestone.
+- **Scraping military metrics** from the source website  
+- Structuring the extracted data into a **dataset**  
+- **Cleaning and standardizing** the values  
+- Generating a **processed dataset** ready for analysis and dashboard development  
 
-```
-Website (Global Firepower)
-        │
-        ▼
-Web Scraping Script
-(Python + Requests + BeautifulSoup)
-        │
-        ▼
-Raw Dataset Generated
-(military_raw_data.csv)
-        │
-        ▼
-Data Cleaning & Standardization
-(Pandas Processing)
-        │
-        ▼
-Final Clean Dataset
-(military_cleaned_data.csv)
-```
+The workflow ensures that **raw web data is converted into a structured format** that can be reliably used for further stages of the project.
 
-This pipeline ensures that raw website data is converted into a structured dataset that can be easily analyzed.
+## **Steps Performed in Milestone 01**
 
----
+### **1. Data Scraping Setup**
 
-# Objective
+Required **Python libraries** were imported to support the scraping and data processing workflow.
 
-The main objectives of this milestone are:
+Libraries used include:
 
-• Collect military strength data for multiple countries
+- **requests**  
+- **BeautifulSoup**  
+- **csv**  
+- **time**  
+- **re**
 
-• Store the collected information in a structured dataset
+These libraries were used to:
 
-• Clean and standardize the data
+- Send **HTTP requests** to the website  
+- **Parse HTML content**  
+- Store extracted data in **CSV format**  
+- Manage **request timing and delays**
 
-• Prepare the dataset for future analysis and visualization
+### **2. Data Extraction**
 
----
+HTTP requests were sent to the **source website** to access **country-specific military information pages**.
 
-# Data Source
+The HTML content was parsed using **BeautifulSoup** to extract military indicators such as:
 
-The data is collected from the **Global Firepower Military Strength Database**, which provides information about military resources and capabilities of countries worldwide.
+- **Manpower**
+- **Defense Budget**
+- **Aircraft Counts**
+- **Naval Assets**
+- **Tanks**
+- **Artillery**
 
----
+The extracted information was structured into **key-value pairs for each country**.
 
-# Raw Data Collection
+### **3. Raw Dataset Generation**
 
-A Python script was created to automatically collect raw data from the website.
+The collected information was written into a **structured CSV file** where:
 
-The script performs the following tasks:
+- Each **row represents a country**
+- Each **column represents a military indicator**
 
-1. Access each country’s military information page
-2. Extract key indicators
-3. Store the collected information in a CSV dataset
+The raw dataset generated during this step is saved as:
 
-This process allows large amounts of data to be collected efficiently.
-
----
-
-# Data Cleaning
-
-After collecting the data, several cleaning steps were applied to improve data quality:
-
-• Removed unnecessary symbols and formatting
-
-• Converted values into numeric format
-
-• Standardized column names
-
-• Handled missing values
-
-These steps ensure the dataset is ready for analysis.
-
----
-
-# Dataset Files
-
-Two datasets are generated during this milestone.
-
-### Raw Dataset
-
-```
 data/military_raw_data.csv
-```
 
-This file contains the original scraped data.
+This file contains the **original scraped values directly from the website**.
 
-### Clean Dataset
+### **4. Data Cleaning**
 
-```
+The raw dataset was loaded using the **Pandas library** and processed to improve **data quality and consistency**.
+
+The following transformations were applied:
+
+- **Removal of commas, currency symbols, and special characters**
+- **Conversion of numeric fields into appropriate numeric data types**
+- **Standardization of column names**
+
+These steps ensure the dataset can be **easily used for analysis and further processing**.
+
+### **5. Handling Missing Values**
+
+Missing or invalid entries were **identified within the dataset**.
+
+Appropriate replacements were applied to:
+
+- Maintain **dataset consistency**
+- **Minimize missing values**
+
+This step ensures the dataset remains **structurally reliable for downstream analysis**.
+
+### **6. Clean Dataset Export**
+
+After completing the **cleaning and standardization steps**, the processed dataset was exported as:
+
 data/military_cleaned_data.csv
-```
 
-This file contains the processed and standardized data ready for analysis.
+This dataset serves as the **final structured dataset generated during this milestone** and is prepared for **further analysis and dashboard development**.
 
----
+## **Generated Output Files**
 
-# Outcome
-
-At the end of this milestone:
-
-• Military data for many countries has been collected
-
-• The data has been cleaned and standardized
-
-• A structured dataset has been prepared for further analysis
+| **File** | **Description** |
+|------|-------------|
+| **data/military_raw_data.csv** | Raw dataset generated from the scraping process |
+| **data/military_cleaned_data.csv** | Cleaned dataset prepared for analysis |
