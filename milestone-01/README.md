@@ -17,7 +17,7 @@ The approach involved:
 
 The workflow ensures that **raw web data is converted into a structured format** that can be reliably used for further stages of the project.
 
-## **Steps Performed in Milestone 01**
+## **Steps Performed in Data Collection & Preparation**
 
 ### **1. Data Scraping Setup**
 
