@@ -1,4 +1,4 @@
-# Milestone 02 — KPI Engineering & Tableau Preparation
+# KPI Engineering & Tableau Preparation
 
 ## Objective
 
