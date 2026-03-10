@@ -93,7 +93,7 @@ Two datasets are generated during this milestone.
 ### Raw Dataset
 
 ```
-data/raw_military_data.csv
+data/military_raw_data.csv
 ```
 
 This file contains the original scraped data.
