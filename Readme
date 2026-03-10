@@ -1,1 +1,307 @@
+# Unified Military Analytics & Comparison Dashboard (UMAC)
 
+> **Global military capability analysis platform using automated data collection, Python analytics, and interactive Power BI dashboards.**
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-yellow)](https://powerbi.microsoft.com/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data_Processing-indigo)](https://pandas.pydata.org/)
+
+---
+
+# Table of Contents
+
+- Overview
+- Architecture
+- Project Structure
+- Getting Started
+- Milestone Deliverables
+- Technology Stack
+- Troubleshooting
+
+---
+
+# Overview
+
+**UMAC (Unified Military Analytics and Comparison)** is a data analytics platform designed to evaluate and compare the military capabilities of **140+ countries using 2025 defense data**.
+
+The system automates the pipeline from **web data collection to interactive Power BI dashboards**, enabling analysts to examine global defense capabilities, compare countries, and analyze strategic military trends.
+
+The dataset includes more than **50 defense indicators**, including:
+
+- Military manpower
+- Air, land, and naval equipment
+- Defense budgets
+- Global power rankings
+- Economic and population metrics
+
+---
+
+# Architecture
+
+## System Workflow
+
+```
+Raw Web Data (Global Firepower)
+        │
+        ▼
+Python Web Scraper
+(BeautifulSoup + Requests)
+        │
+        ▼
+Raw Dataset
+military_raw_data.csv
+        │
+        ▼
+Data Cleaning & KPI Engineering
+(Pandas + NumPy)
+        │
+        ▼
+Final Dataset
+military_final.csv
+        │
+        ▼
+Power BI Dashboard
+Interactive Military Analytics
+```
+
+---
+
+# Project Structure
+
+```
+Unified-Military-Analytics/
+│
+├── README.md
+├── requirements.txt
+│
+├── Milestone_1/
+│   ├── Milestone1.ipynb
+│   ├── README.md
+│   └── data/
+│       └── military_raw_data.csv
+│
+├── Milestone_2/
+│   ├── Milestone2.ipynb
+│   ├── README.md
+│   └── data/
+│       └── military_final.csv
+│
+├── Milestone_3/
+│   ├── UMAC_Dashboard_2025.pbix
+│   └── README.md
+│
+└── Milestone_4/
+    └── Final_Project_Report.pdf
+```
+
+---
+
+# Getting Started
+
+## Prerequisites
+
+- Python 3.8+
+- Power BI Desktop
+
+---
+
+## Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/SpringBoard03/Unified-Military-Analytics-and-Comparison--Group-1.git
+cd Unified-Military-Analytics-and-Comparison--Group-1
+```
+
+### Install dependencies
+
+```bash
+pip install pandas beautifulsoup4 requests numpy
+```
+
+---
+
+# Running the Project
+
+### Step 1 – Data Collection
+
+Run the notebook:
+
+```
+Milestone_1/Milestone1.ipynb
+```
+
+This will:
+
+- Scrape military data from web sources
+- Extract manpower, equipment, and budget statistics
+- Generate:
+
+```
+military_raw_data.csv
+```
+
+---
+
+### Step 2 – Data Processing & KPI Engineering
+
+Run:
+
+```
+Milestone_2/Milestone2.ipynb
+```
+
+This step:
+
+- Cleans the raw dataset
+- Handles missing values
+- Creates analytical KPIs
+
+Output:
+
+```
+military_final.csv
+```
+
+---
+
+### Step 3 – Dashboard Visualization
+
+Open:
+
+```
+Milestone_3/UMAC_Dashboard_2025.pbix
+```
+
+Import:
+
+```
+military_final.csv
+```
+
+Power BI generates interactive dashboards for military comparison.
+
+---
+
+# Milestone Deliverables
+
+## Milestone 1 — Data Collection
+
+**Objective**
+
+Automate scraping of military metrics for **140+ countries**.
+
+**Tasks**
+
+- Extract manpower data
+- Extract equipment counts
+- Extract defense budgets
+
+**Output**
+
+```
+military_raw_data.csv
+```
+
+---
+
+## Milestone 2 — Data Processing & KPI Engineering
+
+**Objective**
+
+Transform raw data into analytical metrics.
+
+**Key KPIs**
+
+- Power Index Rank Gap
+- Assets per Capita
+- Budget to GDP Ratio
+- Equipment Strength Indicators
+
+**Output**
+
+```
+military_final.csv
+```
+
+---
+
+## Milestone 3 — Power BI Dashboard
+
+**Objective**
+
+Build an interactive analytics dashboard.
+
+**Features**
+
+- Global military rankings
+- Country comparison
+- Regional filtering
+- Equipment and manpower visualization
+
+---
+
+# Technology Stack
+
+### Data Collection
+
+- Python
+- Requests
+- BeautifulSoup
+
+### Data Processing
+
+- Pandas
+- NumPy
+
+### Visualization
+
+- Power BI
+
+### Documentation
+
+- Markdown
+- GitHub
+
+---
+
+# Troubleshooting
+
+## Missing Python Packages
+
+```
+ModuleNotFoundError
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Power BI Cannot Load Dataset
+
+Check that:
+
+- `military_final.csv` exists
+- Column headers are not modified
+- File encoding is UTF-8
+
+---
+
+# Contributors
+
+Group 1 – Unified Military Analytics & Comparison Project
+
+---
+
+# License
+
+This project is developed for **academic and research purposes**.
+
+---
+
+**Built for global defense analytics**
