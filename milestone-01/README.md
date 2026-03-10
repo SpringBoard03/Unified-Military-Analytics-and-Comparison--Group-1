@@ -30,10 +30,6 @@ Data Cleaning & Standardization
         ▼
 Final Clean Dataset
 (military_cleaned_data.csv)
-        │
-        ▼
-Used in Future Milestones
-(Data Analysis / Dashboard / Insights)
 ```
 
 This pipeline ensures that raw website data is converted into a structured dataset that can be easily analyzed.
