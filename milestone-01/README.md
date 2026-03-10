@@ -1,4 +1,4 @@
-# **Milestone 01 — Data Collection & Preparation**
+# **Data Collection & Preparation**
 
 ## **Objective**
 
