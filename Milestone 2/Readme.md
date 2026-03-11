@@ -24,7 +24,7 @@ The dataset was structured to support Power BI dashboard requirements:
 ## 📂 Deliverables
 | File | Description |
 | :--- | :--- |
-| `Milestone2.ipynb` | Python notebook containing the step-by-step cleaning, normalization process, and automated KPI feature engineering. |
+| `Exploratory_Data_Analysis.ipynb` | Python notebook containing the step-by-step cleaning, normalization process, and automated KPI feature engineering. |
 | `military_final.csv` | The final analytics-ready dataset including all 50+ indicators and new KPIs. |
 
 ## ✅ Evaluation Benchmarks
@@ -38,4 +38,5 @@ Successfully engineered new KPIs (Rank Gap, Assets per Capita, Budget-to-GDP) an
 ---
 
 **Status:** Milestone 2 Completed. The dataset is prepared for **Milestone 3: Full Dashboard Development**.
+
 
