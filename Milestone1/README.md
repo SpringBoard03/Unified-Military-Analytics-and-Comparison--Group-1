@@ -1,125 +1,59 @@
-# Unified Military Analytics and Comparison Dashboard
+# 📊 Data Collection & Preparation
 
-## 🎯 Milestone 1 — Data Collection and Preparation
+## 🎯 Objective
+Collect global military strength data and transform it into a **clean, structured dataset** for **analysis and visualization**.
 
-### Overview
+## ⚙️ Approach
+A **Python-based workflow** was implemented to automate:
 
-Milestone 1 focuses on building the **data foundation** for the *Unified Military Analytics and Comparison Dashboard*.
+- **Scraping military metrics** from the source website  
+- **Structuring and cleaning** the data  
+- Exporting a **processed dataset** ready for analysis  
 
-In this phase, military capability metrics for **140+ countries** are collected from [Global Firepower website](https://www.globalfirepower.com/) using automated web scraping. After scraping, the raw data is **cleaned, standardized, and structured** to prepare it for analytics and dashboard development.
+This ensures **raw web data is converted into a reliable, structured format** for further project stages.
 
-This milestone ensures that the dataset is **accurate, consistent, and ready for KPI engineering in the next stage**. 
+## 📝 Steps Performed
 
----
+### 1️⃣ Data Scraping Setup
+Imported Python libraries:
 
-### 🎯 Objectives
+- **requests**, **BeautifulSoup**, **csv**, **time**, **re**  
 
-The main objectives of this milestone are:
+Functions:
 
-* Scrape military metrics for **140+ countries**
-* Extract structured defense data from **GlobalFirepower**
-* Store the raw dataset for processing
-* Prepare the data pipeline for cleaning and transformation
-* Ensure reliable data extraction with minimal missing values
+- Send **HTTP requests**  
+- **Parse HTML content**  
+- Store data in **CSV format**  
+- Handle **timing and delays**  
 
----
+### 2️⃣ Data Extraction
+- Extracted military indicators such as **manpower, defense budget, aircraft, naval assets, tanks, artillery**  
+- Structured data into **key-value pairs per country**
 
-### 🧩 Modules in Milestone 1
+### 3️⃣ Raw Dataset Generation
+- Saved collected data into:  
+  `data/military_raw_data.csv`  
+- **Rows:** countries | **Columns:** military indicators
 
-Milestone 1 consists of **two key modules**.
+### 4️⃣ Data Cleaning
+Using **Pandas**:
 
+- Removed **commas, currency symbols, special characters**  
+- Converted numeric fields to proper **data types**  
+- Standardized **column names**  
 
-#### 1. Module 1 — Scraping Setup and Execution
+### 5️⃣ Handling Missing Values
+- Identified **missing or invalid entries**  
+- Applied replacements to maintain **dataset consistency**
 
-This module focuses on building the **web scraping pipeline** to extract military metrics from GlobalFirepower country pages.
+### 6️⃣ Clean Dataset Export
+- Final cleaned dataset exported as:  
+  `data/military_cleaned_data.csv`   
+- Ready for **analysis and dashboard development**
 
-The scraping script reads URLs from a predefined file and automatically collects military statistics for each country.
-
-##### 🛠 Tasks Performed
-
-* Use **`links_for_military_data.txt`** as the source list of country URLs
-* Some of the extracted military metrics include:
-
-  * ✈️ Total Aircraft
-  * 🛡 Tanks
-  * 🚢 Naval Assets
-  * 💰 Defense Budget
-  * 👥 Active Personnel
-  * 🪖 Reserve Personnel
-* Parse structured metric blocks from each webpage
-* Store the extracted information in structured format
-* Optionally save **HTML snapshots for debugging**
-
-##### 📦 Deliverables
-
-* Script:
-  `scrape_military_metrics.py`
-
-* Output dataset:
-  `military_raw_data.csv`
-
----
-
-#### 2. Module 2 — Data Cleaning and Structuring
-
-The raw scraped dataset contains text formatting, symbols, and inconsistent column structures.
-This module focuses on **cleaning and transforming the raw data into a standardized analytical dataset**.
-
-This cleaned dataset will later be used as **input for KPI engineering and dashboard visualization**.
-
-##### 🛠 Tasks Performed
-
-* Remove unnecessary characters such as:
-
-  * commas
-  * percentage signs
-  * plus symbols
-  * special formatting characters
-
-* Convert extracted values into **numeric formats**
-
-* Standardize column names for consistency
-
-Example:
-
-```
-Total Aircraft → total_aircraft
-Active Personnel → active_personnel
-```
-
-* Handle **missing or null values**
-* Validate dataset consistency
-* Export a cleaned dataset ready for analytics tools
-
-##### 📦 Deliverables
-
-* Clean dataset:
-  `military_cleaned.csv`
-
-* Data cleaning notebook:
-  `clean_data.ipynb`
-
----
-
-### 📊 Output of Milestone 1
-
-By the end of this milestone, two datasets are produced:
+## 📂 Generated Output Files
 
 | **File** | **Description** |
-|------|-------------|
-| **Outputs/military_raw_data.csv** | Raw dataset generated from the scraping process |
-| **Outputs/military_cleaned_data.csv** | Cleaned dataset prepared for analysis |
-
----
-
-### 🔜 Next Step
-
-In the next milestone, the cleaned dataset will be used to perform **KPI Feature Engineering**.
-
-
-
-
-
-
-
-
+|----------|----------------|
+| `data/military_raw_data.csv` | Raw dataset from scraping |
+| `data/military_cleaned_data.csv` | Cleaned dataset ready for analysis |
