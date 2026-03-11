@@ -92,14 +92,14 @@ Unified-Military-Analytics/
 ├── 📄 requirements.txt
 │
 ├── 📂 Milestone_1/              # Data Collection
-│   ├── Milestone1.ipynb
+│   ├── Data_Scraping_and_Cleaning.ipynb
 │   ├── README.md
 │   └── data/
 │       └── military_raw_data.csv
 |       └── military_clean_data.csv
 │
 ├── 📂 Milestone_2/              # Data Processing & KPI Engineering
-│   ├── Milestone2.ipynb
+│   ├── Exploratory_Data_Analysis.ipynb
 │   ├── README.md
 │   └── data/
 │       └── military_final.csv
@@ -143,7 +143,7 @@ pip install pandas beautifulsoup4 requests numpy
 
 #### Step 1 — Data Collection
 
-Run `Milestone_1/Milestone1.ipynb`
+Run `Milestone_1/Data_Scraping_and_Cleaning.ipynb`
 
 This notebook will:
 - Scrape military data from web sources
@@ -154,7 +154,7 @@ This notebook will:
 
 #### Step 2 — Data Processing & KPI Engineering
 
-Run `Milestone_2/Milestone2.ipynb`
+Run `Milestone_2/Exploratory_Data_Analysis.ipynb`
 
 This notebook will:
 - Clean the raw dataset
@@ -209,17 +209,25 @@ Power BI will generate interactive dashboards for global military comparison.
 - 🌏 Regional filtering & drill-down
 - 📊 Equipment and manpower visualizations
 
+---
 
+### Milestone 4 — Final Report
+
+> **Objective:** Document findings, methodology, and insights.
+
+📄 **Output:** `Final_Project_Report.pdf`
+
+---
 
 ## 🧰 Technology Stack
 
 | Layer | Technology |
 |---|---|
-| Data Collection | Python, Requests, BeautifulSoup4 |
-| Data Processing | Pandas, NumPy |
-| Visualization | Power BI |
-| Notebooks | Jupyter |
-| Documentation | Markdown, GitHub |
+| Data Collection | 🐍 Python, 🌐 Requests, 🍲 BeautifulSoup4 |
+| Data Processing | 🐼 Pandas, 🔢 NumPy |
+| Visualization | 📊 Power BI |
+| Notebooks | 📓 Jupyter |
+| Documentation | 📝 Markdown, 🐙 GitHub |
 
 ---
 
@@ -254,4 +262,3 @@ This project is developed for **academic and research purposes only**.
 ---
 
 *Built for global defense analytics · UMAC 2025*
-
