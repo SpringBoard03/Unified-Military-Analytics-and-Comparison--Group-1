@@ -41,15 +41,8 @@ The scraping script reads URLs from a predefined file and automatically collects
 * Some of the extracted military metrics include:
 
   * ✈️ Total Aircraft
-  * 🛩 Fighter Aircraft
-  * 🚁 Helicopters
   * 🛡 Tanks
-  * 🚙 Armored Vehicles
-  * 🔫 Self-Propelled Artillery
-  * 🎯 Rocket Projectors
   * 🚢 Naval Assets
-  * 🐋 Submarines
-  * 🚤 Patrol Vessels
   * 💰 Defense Budget
   * 👥 Active Personnel
   * 🪖 Reserve Personnel
@@ -112,25 +105,17 @@ Active Personnel → active_personnel
 
 By the end of this milestone, two datasets are produced:
 
-1. **Raw Dataset**
-
-```
-military_raw_data.csv
-```
-
-2. **Clean Dataset**
-
-```
-military_cleaned.csv
-```
-
-These datasets contain **military capability metrics for 140+ countries**, forming the **core dataset for the entire analytics platform**.
+| **File** | **Description** |
+|------|-------------|
+| **data/military_raw_data.csv** | Raw dataset generated from the scraping process |
+| **data/military_cleaned_data.csv** | Cleaned dataset prepared for analysis |
 
 ---
 
 ### 🔜 Next Step
 
 In the next milestone, the cleaned dataset will be used to perform **KPI Feature Engineering**.
+
 
 
 
