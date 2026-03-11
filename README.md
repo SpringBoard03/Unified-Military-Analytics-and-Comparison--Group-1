@@ -15,13 +15,8 @@
 
 # Overview
 
-This project builds an interactive analytics platform for analyzing and comparing global military capabilities in 2026. The system collects military data for more than 140 countries by scraping publicly available statistics from GlobalFirepower.
+This project develops an interactive analytics platform for analyzing and comparing global military capabilities in 2026. Military data for more than 140 countries is scraped from GlobalFirepower and processed using a Python-based data pipeline. The dataset is cleaned, enriched with key performance indicators, and prepared for analysis. Interactive dashboards are then built to explore military strength, compare countries, and evaluate potential coalitions.
 
-The collected data is processed through a Python-based pipeline that cleans, standardizes, and enriches the dataset with analytical indicators. These indicators are then used to create interactive dashboards that allow users to explore military strength, compare countries, and simulate coalition capabilities.
-
-Unlike traditional dashboards that rely on a single tool, this project is designed with cross-platform flexibility in mind. The processed data can be visualized using Tableau, Power BI, or Python-based dashboard frameworks such as Streamlit or Dash.
-
-The final system provides a unified environment for exploring military power metrics through interactive visualizations and comparative analytics.
 
 ---
 
