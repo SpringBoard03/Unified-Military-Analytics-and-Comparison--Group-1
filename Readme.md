@@ -209,15 +209,7 @@ Power BI will generate interactive dashboards for global military comparison.
 - 🌏 Regional filtering & drill-down
 - 📊 Equipment and manpower visualizations
 
----
 
-### Milestone 4 — Final Report
-
-> **Objective:** Document findings, methodology, and insights.
-
-📄 **Output:** `Final_Project_Report.pdf`
-
----
 
 ## 🧰 Technology Stack
 
