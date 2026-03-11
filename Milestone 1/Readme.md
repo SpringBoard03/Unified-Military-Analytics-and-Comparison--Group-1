@@ -7,10 +7,10 @@ The primary objective of this milestone is to collect global military strength d
 We implemented a Python-based workflow to automate the systematic extraction of military metrics for over 140 countries.
 
 ### **Tasks Performed:**
-* **Automated URL Retrieval:** Programmatically extracted country-specific URLs from the Global Firepower listing page.
-* **Metric Extraction:** Scraped high-level military indicators including Manpower, Defense Budgets, Aircraft counts, Naval assets, and Land equipment (Tanks/Artillery).
-* **Data Structuring:** Parsed HTML content using `BeautifulSoup` and mapped the findings into structured key-value pairs.
-* **Raw Storage:** Compiled all extracted data into a structured CSV format.
+1. **Automated Data Retrieval:** Fetched URLs for 140+ countries.
+2. **Metric Extraction:** Scraped manpower, budgets, and hardware counts.
+3. **Data Structuring:** Parsed HTML into structured key-value pairs.
+4. **Data Storage:** Saved extracted data into a raw CSV file.
 
 ### **Technical Stack:**
 * **Python Libraries:** `requests`, `BeautifulSoup4`, `pandas`, `re`, and `time`.
@@ -34,6 +34,9 @@ Once the raw data was secured, we performed the following processing steps:
 * **URL Success Rate:** Target ≥ 95% success from the source list.
 * **Coverage:** Correctly parsed metric blocks for 140+ countries.
 * **Accuracy:** Successful removal of special characters and transformation into numeric formats.
+
+## 🎯 Outcome
+Successfully delivered a structured, clean, and comprehensive dataset of global military strength for over 140 countries. This standardized data serves as the critical foundation for KPI engineering and interactive Power BI dashboard development in the upcoming project phases.
 
 ---
 **Status:** Milestone 1 Completed. Raw data extracted and standardized for downstream analysis.
