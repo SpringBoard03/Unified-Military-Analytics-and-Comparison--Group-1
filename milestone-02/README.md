@@ -1,95 +1,48 @@
-# KPI Engineering & Tableau Preparation
+# 🚀 KPI Engineering & Power BI Preparation
 
-## Objective
+## 🎯 Objective
+Compute key performance indicators (KPIs) from the cleaned military dataset and prepare it for **interactive Power BI dashboards**.
 
-Compute key performance indicators (KPIs) from the cleaned military dataset and prepare the data in a format suitable for interactive visualization in Tableau dashboards.
+## ⚙️ Approach
+Using the cleaned dataset from Milestone 01, a **Python workflow** was implemented to:
 
+- Create **derived KPI metrics** from military indicators  
+- Enrich the dataset with **geographical and alliance metadata**  
+- Prepare the structure for **Power BI visualization**  
+- Export the dataset ready for **dashboard development**  
 
-## Approach
+This ensures the dataset supports **comparative military analysis** and **interactive dashboards** without extra transformations.
 
-The cleaned dataset from Milestone 01 was used as the base dataset.  
-A Python workflow was implemented to engineer additional analytical metrics and enrich the dataset with supporting metadata.
+## 📝 Steps Performed
 
-The approach included:
+### 1️⃣ Dataset Loading
+- Loaded `military_updated.csv` using **Pandas**  
+- Validated **columns, data types, row counts, and missing values**
 
-- Creating derived KPI metrics from existing military indicators
-- Enriching the dataset with geographical and alliance metadata
-- Preparing the dataset structure for Tableau visualization
-- Exporting the final dataset in a format ready for dashboard development
+### 2️⃣ KPI Feature Engineering
+Computed key indicators for cross-country analysis:
 
-This ensures the dataset supports comparative military analysis and interactive dashboards without requiring additional transformations.
+- **Power Index Rank Gap** – Difference between expected rank & actual power index rank  
+- **Assets per Capita** – Military assets relative to population  
+- **Budget-to-GDP Ratio** – Defense spending intensity vs economic output  
 
+### 3️⃣ Metadata Enrichment
+Added supporting attributes for enhanced analysis:
 
-## Steps Performed in KPI Engineering & Tableau Preparation
+- **Region & Continent**  
+- **NATO alliance flag**   
 
-### 1. Dataset Loading
+### 4️⃣ Data Formatting for Power BI
+Prepared two dataset formats:
 
-The cleaned dataset generated in Milestone 01 was loaded using the Pandas library.
+- **Wide Format** – KPIs & metrics as columns for analysis & filtering  
+- **Long Format** – Attribute-value pairs for flexible Power BI visualizations  
 
-```
-military_updated.csv
-```
+### 5️⃣ Final Dataset Export
+- Exported the final structured dataset ready for **visualization and dashboards**  
 
-Basic dataset validation steps were performed to confirm:
-
-- Column structure  
-- Data types  
-- Row counts  
-- Missing values  
-
-### 2. KPI Feature Engineering
-
-New analytical indicators were created using existing military metrics.
-
-The following KPIs were computed:
-
-**Power Index Rank Gap**
-
-Measures the difference between the expected rank and the actual power index rank to highlight comparative military positioning.
-
-**Assets per Capita**
-
-Calculates the distribution of military assets relative to population size.
-
-**Budget-to-GDP Ratio**
-
-Measures defense spending intensity relative to national economic output.
-
-These KPIs enable meaningful cross-country comparisons of military strength and resource allocation.
-
-### 3. Metadata Enrichment
-
-Additional metadata was integrated into the dataset to improve analytical capabilities.
-
-The following metadata fields were added:
-
-- Region  
-- Continent  
-- NATO alliance flag  
-
-These attributes support regional comparisons and alliance-based analysis in dashboards.
-
-### 4. Data Formatting for Visualization
-
-The dataset was structured to support Tableau dashboard requirements.
-
-Two dataset formats were prepared:
-
-**Wide Format**
-
-Each KPI and metric is stored as a column, making it suitable for statistical analysis and filtering.
-
-**Long Format**
-
-Metrics are transformed into attribute-value pairs to support flexible visualizations in Tableau.
-
-### 5. Final Dataset Export
-
-After KPI computation and data enrichment, the final structured dataset was exported for visualization and dashboard development.
-
-
-## Generated Output Files
+## 📂 Generated Output Files
 
 | File | Description |
 |------|-------------|
-| military_updated.csv | Final dataset containing engineered KPIs and enriched metadata |
+| `military_updated.csv` | Final dataset with engineered KPIs and enriched metadata |
