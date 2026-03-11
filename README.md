@@ -9,7 +9,7 @@
 * Project Milestones
 * Tech Stack
 * Outputs
-* Repository Structure
+
 
 ---
 
@@ -135,15 +135,15 @@ This includes:
 ---
 
 ## 🛠️ Tech Stack
+| Area                | Tools / Libraries               |
+| ------------------- | ------------------------------- |
+| 🕸️ Data Collection | Python, Requests, BeautifulSoup |
+| 🧹 Data Processing  | Pandas, NumPy                   |
+| 📊 Visualization    | Power BI                        |
+| 🖥️ Dashboard Apps  | Streamlit, Dash                 |
+| 💾 Data Storage     | CSV, Excel                      |
+| 📝 Documentation    | Markdown, GitHub                |
 
-| Area            | Tools / Libraries               |
-| --------------- | ------------------------------- |
-| Data Collection | Python, Requests, BeautifulSoup |
-| Data Processing | Pandas, NumPy                   |
-| Visualization   | Power BI                        |
-| Dashboard Apps  | Streamlit, Dash                 |
-| Data Storage    | CSV, Excel                      |
-| Documentation   | Markdown, GitHub                |
 
 ---
 
@@ -158,28 +158,4 @@ The project generates several outputs during different stages of the pipeline:
 
 ---
 
-## 📁 Repository Structure
 
-```
-global-military-analytics
-│
-├── data
-│   ├── military_raw_data.csv
-│   ├── military_cleaned.csv
-│   └── military_final.csv
-│
-├── scripts
-│   ├── scrape_military_metrics.py
-│   ├── clean_data.ipynb
-│   └── generate_kpis.ipynb
-│
-├── dashboards
-│   └── global_military_firepower_2026.ipbx
-│
-├── docs
-│   └── dashboard_storyboard.md
-│
-└── README.md
-```
-
-This repository demonstrates a complete data analytics workflow, starting from web scraping and data processing to interactive dashboard development for global military analysis.
