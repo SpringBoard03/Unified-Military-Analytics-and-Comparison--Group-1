@@ -16,29 +16,7 @@ Since the raw scraped data contained formatting inconsistencies such as commas, 
 
 ---
 
-## Architecture
 
-```
-Country URLs
-   │
-   ▼
-Web Scraping
-(scrape_military_metrics.py)
-   │
-   ▼
-Raw Dataset
-(military_raw_data.csv)
-   │
-   ▼
-Data Cleaning & Transformation
-(clean_data.ipynb)
-   │
-   ▼
-Final Dataset
-(military_cleaned.csv)
-```
-
----
 
 ## Steps Performed
 
@@ -123,11 +101,4 @@ This dataset is now structured, standardized, and ready for analysis and visuali
 
 ---
 
-## Tech Stack
 
-* Python
-* Requests
-* BeautifulSoup
-* Pandas
-* Jupyter Notebook
-* CSV
