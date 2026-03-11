@@ -87,17 +87,10 @@ These metrics are used to build analytical indicators and comparative dashboards
 
 ### 📦 Milestone 1 — Data Collection and Preparation
 
-This stage focuses on building the data pipeline required to collect and clean military statistics.
+* Scraped military statistics for 140+ countries from GlobalFirepower using Python and stored the data in a raw CSV dataset.
+* Extracted key metrics such as aircraft, tanks, personnel, and defense budget from predefined country URLs.
+* Cleaned and standardized the dataset by removing special characters, converting values to numeric formats, and handling missing data.
 
-**Web Scraping**
-
-A Python script is used to access a list of predefined URLs containing military statistics for each country. The script retrieves country-level data such as aircraft counts, tank inventories, personnel numbers, and defense budgets.
-
-The extracted data is stored in a structured CSV dataset.
-
-**Data Cleaning and Structuring**
-
-The raw dataset contains formatting inconsistencies such as commas, special characters, and mixed data types. A cleaning process standardizes the dataset by converting values into numeric formats, handling missing values, and organizing the dataset into a consistent structure.
 
 ---
 
