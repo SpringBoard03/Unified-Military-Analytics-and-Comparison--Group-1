@@ -9,6 +9,19 @@
 
 Unified Military Analytics & Comparison Dashboard shows the military strength of countries in an easy-to-understand way, It uses data to create dashboards that let you compare countries and see key statistics.
 
+---
+
+## 📖 Table of Contents
+* [🎯 Project Statement](#-project-statement)
+* [⚙️ Approach](#️-approach)
+* [🏗️ Architecture](#️-architecture)
+* [📂 Repository Structure](#-repository-structure)
+* [🗓️ Milestones](#️-milestones)
+    * [📍 Milestone 01: Data Collection & Preparation](#-milestone-01-data-collection--preparation)
+    * [📍 Milestone 02: KPI Engineering & Prototyping](#-milestone-02-kpi-engineering--prototyping)
+
+---
+
 ## 🎯 Project Statement
 This project develops a **fully interactive dashboard suite** for analyzing **global military power**.  
 
