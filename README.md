@@ -94,15 +94,12 @@ Unified Military Analytics and Comparison Dashboard
 ### 📍 Milestone 01: Data Collection & Preparation
 > **Goal:** Build a robust data pipeline that extracts raw military intelligence from the web and transforms it into a high-quality, analysis-ready dataset.
 
----
-
-#### 📊 Milestone 01 Overview
 
 | Module | Focus | Primary Tools |
 | :--- | :--- | :--- |
 | **01. Scraping** | Web Extraction & Raw Storage | `BeautifulSoup`, `Requests` |
 | **02. Cleaning** | Type Conversion & Normalization | `Pandas`, `NumPy` |
----
+
 
 | 🧩 Scraping | 🧹 Cleaning |
 | :--- | :--- |
@@ -135,7 +132,7 @@ block-beta
   style k5 fill:#004a99,stroke:#ffffff,color:#ffffff
   style k6 fill:#004a99,stroke:#ffffff,color:#ffffff
 ```
----
+
 
 | 🧪 **KPI Engineering** | 🎨 **Prototyping** |
 | :--- | :--- |
