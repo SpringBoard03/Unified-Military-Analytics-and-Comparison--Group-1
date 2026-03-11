@@ -6,7 +6,7 @@
 
 Milestone 1 focuses on building the **data foundation** for the *Unified Military Analytics and Comparison Dashboard*.
 
-In this phase, military capability metrics for **140+ countries** are collected from **GlobalFirepower.com** using automated web scraping. After scraping, the raw data is **cleaned, standardized, and structured** to prepare it for analytics and dashboard development.
+In this phase, military capability metrics for **140+ countries** are collected from [Global Firepower Website](https://www.globalfirepower.com/) using automated web scraping. After scraping, the raw data is **cleaned, standardized, and structured** to prepare it for analytics and dashboard development.
 
 This milestone ensures that the dataset is **accurate, consistent, and ready for KPI engineering in the next stage**. 
 
@@ -115,6 +115,7 @@ By the end of this milestone, two datasets are produced:
 ### 🔜 Next Step
 
 In the next milestone, the cleaned dataset will be used to perform **KPI Feature Engineering**.
+
 
 
 
