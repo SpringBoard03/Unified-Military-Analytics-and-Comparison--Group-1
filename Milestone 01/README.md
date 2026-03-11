@@ -107,14 +107,15 @@ By the end of this milestone, two datasets are produced:
 
 | **File** | **Description** |
 |------|-------------|
-| **data/military_raw_data.csv** | Raw dataset generated from the scraping process |
-| **data/military_cleaned_data.csv** | Cleaned dataset prepared for analysis |
+| **Outputs/military_raw_data.csv** | Raw dataset generated from the scraping process |
+| **Outputs/military_cleaned_data.csv** | Cleaned dataset prepared for analysis |
 
 ---
 
 ### 🔜 Next Step
 
 In the next milestone, the cleaned dataset will be used to perform **KPI Feature Engineering**.
+
 
 
 
