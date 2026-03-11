@@ -26,7 +26,7 @@ Once the raw data was secured, we performed the following processing steps:
 ## 📂 Deliverables
 | File | Description |
 | :--- | :--- |
-| `Milestone1.ipynb` | The primary script/notebook containing the scraping and cleaning logic. |
+| `Data_Scraping_and_Cleaning.ipynb` | The primary script/notebook containing the scraping and cleaning logic. |
 | `military_raw_data.csv` | The initial dataset containing original scraped values. |
 | `military_cleaned_data.csv` | The final processed dataset ready for Milestone 2. |
 
@@ -40,3 +40,4 @@ Successfully delivered a structured, clean, and comprehensive dataset of global 
 
 ---
 **Status:** Milestone 1 Completed. Raw data extracted and standardized for downstream analysis.
+
