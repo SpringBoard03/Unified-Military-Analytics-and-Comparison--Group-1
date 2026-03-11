@@ -32,13 +32,8 @@ New analytical metrics were created to provide deeper insights into military cap
 Key KPIs generated include:
 
 * **Power Index Rank Gap**
-  Measures the difference in military ranking between countries, helping identify relative power differences.
-
 * **Assets per Capita**
-  Evaluates how military resources compare relative to the population size of a country.
-
 * **Defense Budget-to-GDP Ratio**
-  Indicates how much of a country's economic output is allocated to defense spending.
 
 These KPIs enable **comparative analysis and performance evaluation** between nations.
 
@@ -70,15 +65,15 @@ These transformations make the dataset **ready for direct use in dashboard tools
 
 ### 📊 KPI Explanation
 
-#### Power Index Rank Gap
+#### 1. Power Index Rank Gap
 
 This KPI measures the **difference in military strength ranking** between countries, helping identify the gap between top military powers and emerging forces.
 
-#### Assets per Capita
+#### 2. Assets per Capita
 
 This metric evaluates **military asset availability relative to population size**, providing a perspective on resource distribution.
 
-#### Budget-to-GDP Ratio
+#### 3. Budget-to-GDP Ratio
 
 This indicator measures the **percentage of national economic output spent on defense**, highlighting the level of economic commitment to military development.
 
@@ -87,10 +82,9 @@ This indicator measures the **percentage of national economic output spent on de
 ### 📈 Output Dataset
 
 The final output of this milestone is a **fully prepared dataset enriched with KPIs and metadata**.
-
-Output file:
-
-* 📄 `military_final.csv`
+| **File** | **Description** |
+|------|-------------|
+| **data/military_final.csv** | Final processed dataset containing cleaned military metrics and engineered KPIs |
 
 Dataset characteristics:
 
@@ -104,3 +98,4 @@ Dataset characteristics:
 ### 🔜 Next Step
 
 The next milestone will focus on **dashboard development and interactive visualization**.
+
