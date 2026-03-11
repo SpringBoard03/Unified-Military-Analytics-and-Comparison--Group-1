@@ -2,9 +2,9 @@
 
 ## Overview
 
-In this milestone, the goal was to build the foundation for the military analytics project by collecting and preparing global military data. The data was scraped from multiple country pages using a list of URLs and then processed to create a structured dataset.
+## Overview
 
-Since the raw scraped data contained formatting inconsistencies such as commas, symbols, and mixed data types, a cleaning process was applied to standardize the data and make it suitable for analysis and visualization in later milestones.
+In this milestone, military data for 140+ countries was scraped from GlobalFirepower using predefined URLs and stored in a raw dataset. The data was then cleaned by removing formatting symbols, converting values to numeric formats, and handling missing values to create a structured dataset for further analysis.
 
 ---
 
@@ -20,85 +20,17 @@ Since the raw scraped data contained formatting inconsistencies such as commas, 
 
 ## Steps Performed
 
-### 1. Accessing Country Military Pages
+1. Collected country profile links containing military statistics and prepared a list of URLs for scraping.
+2. Scraped key military metrics such as personnel, aircraft, tanks, naval assets, and defense budget for each country and stored them in a raw dataset (**military_raw_data.csv**).
+3. Cleaned the raw data by removing special characters, converting values to numeric formats, and standardizing column names.
+4. Split combined equipment values (stock and readiness) into separate fields for better analysis.
+5. Saved the final structured dataset as **military_cleaned.csv**, making it ready for analysis and dashboard development.
 
-The process begins by accessing a webpage that lists military strength profiles for multiple countries.
-Each country in the list links to a separate page containing detailed military statistics.
+## Deliverables
 
-These pages act as the primary source for collecting military data.
-
----
-
-### 2. Extracting Country Profile Links
-
-All country profile links were extracted from the listing page.
-Each link corresponds to a specific country and contains detailed military metrics.
-
-These links were converted into complete URLs so that they could be accessed programmatically.
-
----
-
-### 3. Removing Duplicate Links
-
-After extracting the country URLs, duplicate links were removed to ensure that each country page was processed only once.
-The links were also sorted to maintain an organized scraping workflow.
-
----
-
-### 4. Scraping Military Metrics
-
-Each country page was then accessed and parsed to extract important military statistics such as:
-
-* Active military personnel
-* Aircraft inventory
-* Tank inventory
-* Naval assets
-* Defense budget
-* Other military capability indicators
-
-The extracted information for each country was stored temporarily before being added to the dataset.
-
----
-
-### 5. Creating the Raw Dataset
-
-After collecting the data from all country pages, the information was organized into a structured table format and saved as:
-
-**military_raw_data.csv**
-
-Although the dataset was structured, it still contained formatting issues such as commas, symbols, and combined values.
-
----
-
-### 6. Data Cleaning and Structuring
-
-The raw dataset was then processed to improve its quality and usability.
-
-The cleaning process included:
-
-* Removing commas, percentage symbols, and other special characters
-* Converting values into numeric formats
-* Standardizing column names
-* Handling missing or inconsistent values
-
----
-
-### 7. Separating Combined Metrics
-
-Some military equipment columns contained two values in the same field, representing total stock and operational readiness.
-
-These values were separated into individual columns so that they could be analyzed independently.
-
----
-
-### 8. Creating the Final Dataset
-
-After cleaning and restructuring the data, the final dataset was saved as:
-
-**military_cleaned.csv**
-
-This dataset is now structured, standardized, and ready for analysis and visualization.
-
----
+* **scrape_military_metrics.py** – Script used to scrape military data from country pages
+* **military_raw_data.csv** – Raw dataset collected from web scraping
+* **clean_data.ipynb** – Notebook used for data cleaning and transformation
+* **military_cleaned.csv** – Final structured dataset ready for analysis
 
 
