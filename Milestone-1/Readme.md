@@ -2,30 +2,38 @@
 
 ## Overview
 
-The first milestone focuses on collecting and preparing global military data for analysis. Military statistics for different countries were gathered by scraping data from multiple country profile pages. The raw data obtained from the website contained formatting inconsistencies and combined values, so a cleaning and structuring process was performed to transform it into a usable dataset.
+In this milestone, the goal was to build the foundation for the military analytics project by collecting and preparing global military data. The data was scraped from multiple country pages using a list of URLs and then processed to create a structured dataset.
 
-This milestone establishes the foundation for further analysis and visualization in later stages of the project.
+Since the raw scraped data contained formatting inconsistencies such as commas, symbols, and mixed data types, a cleaning process was applied to standardize the data and make it suitable for analysis and visualization in later milestones.
+
+---
+
+## Objective
+
+* Collect country-level military statistics from multiple sources.
+* Convert unstructured web data into a structured dataset.
+* Clean and standardize the dataset so it can be used for analytics and dashboard development.
 
 ---
 
 ## Architecture
 
 ```
-Country Military Pages
-        │
-        ▼
+Country URLs
+   │
+   ▼
 Web Scraping
 (scrape_military_metrics.py)
-        │
-        ▼
+   │
+   ▼
 Raw Dataset
 (military_raw_data.csv)
-        │
-        ▼
+   │
+   ▼
 Data Cleaning & Transformation
 (clean_data.ipynb)
-        │
-        ▼
+   │
+   ▼
 Final Dataset
 (military_cleaned.csv)
 ```
