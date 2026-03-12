@@ -1,6 +1,6 @@
-# 🛡️ Unified Military Analytics & Comparison (UMAC)
+🛡️ Unified Military Analytics & Comparison (UMAC)
 
-### *Global defense intelligence — automated, analyzed, visualized.*
+*Global defense intelligence — automated, analyzed, visualized.*
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=flat-square&logo=powerbi&logoColor=black)
@@ -12,7 +12,7 @@
 
 ---
 
-## 📋 Table of Contents
+📋 Table of Contents
 
 - [Overview](#overview)
 - [Architecture](#architecture)
@@ -25,7 +25,7 @@
 
 ---
 
-## 🌐 Overview
+🌐 Overview
 
 **UMAC (Unified Military Analytics and Comparison)** automates the full pipeline from raw web data collection to interactive Power BI dashboards, enabling analysts to examine global defense capabilities, compare countries, and uncover strategic military trends.
 
@@ -42,7 +42,7 @@ The dataset spans **140+ countries** and includes more than **50 defense indicat
 
 ---
 
-## 🏗️ Architecture
+🏗️ Architecture
 
 ```
 ┌──────────────────────────────────┐
@@ -83,7 +83,7 @@ The dataset spans **140+ countries** and includes more than **50 defense indicat
 
 ---
 
-## 📁 Project Structure
+📁 Project Structure
 
 ```
 Unified-Military-Analytics/
@@ -115,7 +115,7 @@ Unified-Military-Analytics/
 
 ---
 
-## 🚀 Getting Started
+🚀 Getting Started
 
 ### Prerequisites
 
