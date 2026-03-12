@@ -27,7 +27,7 @@ The dataset was organized to meet Power BI dashboard requirements:
 | File | Description |
 | :--- | :--- |
 | `Exploratory_Data_Analysis.ipynb` | Python notebook documenting the step-by-step workflow for validation, normalization, and KPI feature engineering. |
-| `military_final.csv` | Final dataset containing 50+ indicators along with the newly created KPIs, ready for analytical use. |
+| `military_KPI_final.csv` | Final dataset containing 50+ indicators along with the newly created KPIs, ready for analytical use. |
 
 ## ✅ Evaluation Benchmarks
 - **KPI Accuracy:** All major KPIs (Power Index Rank Gap, Assets per Capita, Budget-to-GDP Ratio) are calculated correctly.
