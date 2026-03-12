@@ -29,7 +29,7 @@ After collecting the raw dataset, several preprocessing steps were carried out t
 | :--- | :--- |
 | `Data_Scraping_and_Cleaning.ipynb` | Jupyter notebook containing the full scraping and preprocessing workflow. |
 | `military_raw_data.csv` | Raw dataset containing the initially scraped information. |
-| `military_cleaned_data.csv` | Processed dataset prepared for further analysis in the next milestone. |
+| `military_cleaned_ready.csv` | Processed dataset prepared for further analysis in the next milestone. |
 
 ## ✅ Evaluation Criteria
 - **URL Retrieval Rate:** At least 95% successful access to the target country pages.
