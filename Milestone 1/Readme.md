@@ -1,43 +1,67 @@
-# Milestone 1: Data Collection & Preparation (Weeks 1–2)
+Milestone 1 — Data Collection and Preparation
+🎯 Objective
 
-## 📌 Objective
-The primary objective of this milestone is to collect global military strength data from the **Global Firepower (GFP) Index** and transform the raw information into a clean, structured dataset suitable for advanced analytics and dashboard development.
+The aim of this milestone is to gather global military data and convert it into a structured dataset that can be used for further analysis and dashboard creation.
+Data is collected from publicly available military statistics sources and processed using Python.
 
-## 🛠️ Module 1: Scraping Setup and Execution
-We implemented a Python-based workflow to automate the systematic extraction of military metrics for over 140 countries.
+🔎 Data Collection
 
-### **Tasks Performed:**
-1. **Automated Data Retrieval:** Fetched URLs for 140+ countries.
-2. **Metric Extraction:** Scraped manpower, budgets, and hardware counts.
-3. **Data Structuring:** Parsed HTML into structured key-value pairs.
-4. **Data Storage:** Saved extracted data into a raw CSV file.
+A Python-based scraping workflow was used to collect military metrics for multiple countries.
 
-### **Technical Stack:**
-* **Python Libraries:** `requests`, `BeautifulSoup4`, `pandas`, `re`, and `time`.
-* **Workflow:** Implemented request delays (1s) to ensure stable scraping and avoid IP rate-limiting.
+Tasks Performed
 
-## 📊 Data Cleaning & Standardization
-Once the raw data was secured, we performed the following processing steps:
-1.  **Symbol Removal:** Stripped commas, currency symbols (e.g., "$"), and units (e.g., "ft") from numeric strings.
-2.  **Type Conversion:** Converted raw text fields into appropriate numeric data types (integers/floats) for analysis.
-3.  **Missing Value Handling:** Identified and handled null entries to maintain structural integrity.
-4.  **Column Standardization:** Renamed indicators to consistent, machine-readable formats.
+Retrieved military statistics from source web pages
 
-## 📂 Deliverables
-| File | Description |
-| :--- | :--- |
-| `Data_Scraping_and_Cleaning.ipynb` | The primary script/notebook containing the scraping and cleaning logic. |
-| `military_raw_data.csv` | The initial dataset containing original scraped values. |
-| `military_cleaned_data.csv` | The final processed dataset ready for Milestone 2. |
+Extracted key indicators such as manpower, aircraft, tanks, and defense budget
 
-## ✅ Evaluation Criteria
-* **URL Success Rate:** Target ≥ 95% success from the source list.
-* **Coverage:** Correctly parsed metric blocks for 140+ countries.
-* **Accuracy:** Successful removal of special characters and transformation into numeric formats.
+Parsed webpage content into structured data format
 
-## 🎯 Outcome
-Successfully delivered a structured, clean, and comprehensive dataset of global military strength for over 140 countries. This standardized data serves as the critical foundation for KPI engineering and interactive Power BI dashboard development in the upcoming project phases.
+Stored the extracted data into a CSV dataset
 
----
-**Status:** Milestone 1 Completed. Raw data extracted and standardized for downstream analysis.
+Tools Used
 
+Python
+
+requests
+
+BeautifulSoup
+
+pandas
+
+🧹 Data Cleaning and Preparation
+
+After collecting the raw data, preprocessing steps were applied to make the dataset suitable for analysis.
+
+Cleaning Steps
+
+Removed commas, percentage symbols, and currency characters
+
+Converted text values into numeric format
+
+Standardized column names
+
+Checked and handled missing values
+
+This ensured the dataset is consistent and ready for further processing.
+
+📊 Outputs
+File	Description
+data/military_raw_data.csv	Raw dataset collected from web sources
+data/military_cleaned.csv	Cleaned dataset ready for analysis
+Data_Collection_and_Preparation.ipynb	Notebook containing scraping and cleaning process
+
+✔ Validation Metrics
+
+URL Retrieval Rate: At least 95% of country pages successfully processed
+
+Data Coverage: Military metrics captured for 140+ countries
+
+Data Consistency: All numeric indicators standardized and free from formatting characters.
+
+✅ Outcome
+
+Military data successfully collected for multiple countries
+
+Raw data cleaned and standardized
+
+Final dataset prepared for KPI engineering and dashboard development in the next milestone
