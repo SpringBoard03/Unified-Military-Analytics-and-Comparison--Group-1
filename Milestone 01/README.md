@@ -107,8 +107,8 @@ By the end of this milestone, two datasets are produced:
 
 | **File** | **Description** |
 |------|-------------|
-| **Outputs/military_raw_data.csv** | Raw dataset generated from the scraping process |
-| **Outputs/military_cleaned_data.csv** | Cleaned dataset prepared for analysis |
+| **data/military_raw_data.csv** | Raw dataset generated from the scraping process |
+| **data/military_cleaned_data.csv** | Cleaned dataset prepared for analysis |
 
 ---
 
