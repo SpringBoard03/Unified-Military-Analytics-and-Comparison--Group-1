@@ -106,9 +106,10 @@ Unified-Military-Analytics/
 |       └── military_clean_data.csv
 │
 ├── 📂 Milestone_3/              # Power BI Dashboard
-│   ├── UMAC_Dashboard_2025.pbix
-│   └── README.md
-│
+│   ├── Dashboard_1.png
+│   └── Dashboard_2.png
+|   └── Dashboard3.png
+|
 └── 📂 Milestone_4/              # Final Report
     └── Final_Project_Report.pdf
 ```
