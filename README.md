@@ -19,6 +19,7 @@ Unified Military Analytics & Comparison Dashboard shows the military strength of
 * [🗓️ Milestones](#️-milestones)
     * [📍 Milestone 01: Data Collection & Preparation](#-milestone-01-data-collection--preparation)
     * [📍 Milestone 02: KPI Engineering & Prototyping](#-milestone-02-kpi-engineering--prototyping)
+    * [📍 Milestone 03: Full Dashboard Development](#-milestone-03-full-dashboard-development)
 
 ---
 
@@ -99,6 +100,11 @@ Unified Military Analytics and Comparison Dashboard
 │   ├── README.md
 │   └── data/
 │       └── military_updated.csv
+│
+├── 📂 milestone_03
+│ ├── Global_Military_Power.pbix
+│ ├── Dashboard_Preview.pdf
+│ └── README.md
 ```
 ---
 
