@@ -153,3 +153,33 @@ block-beta
 | **Action:** Calculated Power Gap, Assets/Capita, & Budget/GDP ratio. | **Action:** Drafted layouts for Quick Stats & Nation Overview. |
 | **Tech:** `Power BI` | **Tech:** `Figma` / `Sketch` |
 | **Output:** `military_final.csv` | **Output:** Dashboard Storyboard |
+
+---
+
+### 📍 Milestone 03: Full Dashboard Development  
+> **Goal:** Transform engineered data into fully interactive dashboards for visual analysis, comparison, and decision-making.
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#004a99', 'primaryTextColor': '#ffffff', 'lineColor': '#ffffff'}, 'block': {'padding': 10}}}%%
+block-beta
+  columns 2
+  
+  k1["📊 <b>Quick Stats Dashboard</b>"]
+  k2["🌍 <b>Nation Overview</b>"]
+  k3["⚖️ <b>Compare Powers</b>"]
+  k4["🤝 <b>Coalition Builder</b>"]
+
+
+  %% Styling for White Font and Professional Blue
+  style k1 fill:#004a99,stroke:#ffffff,color:#ffffff
+  style k2 fill:#004a99,stroke:#ffffff,color:#ffffff
+  style k3 fill:#004a99,stroke:#ffffff,color:#ffffff
+  style k4 fill:#004a99,stroke:#ffffff,color:#ffffff
+```
+
+| 📊 **Dashboard Development** | 🔗 **Integration & Interaction** |
+| :--- | :--- |
+| **Focus:** Data Visualization & Insights | **Focus:** Seamless User Experience |
+| **Action:** Built Quick Stats, Nation Overview, Compare Powers dashboards. | **Action:** Connected dashboards with navigation & synced filters. |
+| **Tech:** `Power BI` | **Tech:** `Power BI` |
+| **Output:** `global_military_power.pbix` | **Output:** Fully Integrated Dashboard System |
