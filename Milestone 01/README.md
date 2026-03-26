@@ -32,76 +32,39 @@ Milestone 1 consists of **two key modules**.
 #### 1. Module 1 — Scraping Setup and Execution
 
 This module focuses on building the **web scraping pipeline** to extract military metrics from GlobalFirepower country pages.
+Builds the pipeline to extract military metrics from country pages.
 
-The scraping script reads URLs from a predefined file and automatically collects military statistics for each country.
+**🛠 Tasks**
+- Use `links_for_military_data.txt` for URLs  
+- Extract key metrics (aircraft, tanks, naval assets, budget, personnel)  
+- Parse structured data from webpages  
+- Store data in tabular format  
+- Save HTML (optional for debugging)  
 
-##### 🛠 Tasks Performed
-
-* Use **`links_for_military_data.txt`** as the source list of country URLs
-* Some of the extracted military metrics include:
-
-  * ✈️ Total Aircraft
-  * 🛡 Tanks
-  * 🚢 Naval Assets
-  * 💰 Defense Budget
-  * 👥 Active Personnel
-  * 🪖 Reserve Personnel
-* Parse structured metric blocks from each webpage
-* Store the extracted information in structured format
-* Optionally save **HTML snapshots for debugging**
-
-##### 📦 Deliverables
-
-* Script:
-  `scrape_military_metrics.py`
-
-* Output dataset:
-  `military_raw_data.csv`
+**📦 Deliverables**
+- `scrape_military_metrics.py`  
+- `military_raw_data.csv` 
 
 ---
 
 #### 2. Module 2 — Data Cleaning and Structuring
 
-The raw scraped dataset contains text formatting, symbols, and inconsistent column structures.
-This module focuses on **cleaning and transforming the raw data into a standardized analytical dataset**.
+Transforms raw data into a **clean analytical dataset**.
 
-This cleaned dataset will later be used as **input for KPI engineering and dashboard visualization**.
+**🛠 Tasks**
+- Remove symbols (commas, %, +, etc.)  
+- Convert values to numeric format  
+- Standardize column names (e.g., `total_aircraft`)  
+- Handle missing values  
+- Validate and export cleaned dataset  
 
-##### 🛠 Tasks Performed
-
-* Remove unnecessary characters such as:
-
-  * commas
-  * percentage signs
-  * plus symbols
-  * special formatting characters
-
-* Convert extracted values into **numeric formats**
-
-* Standardize column names for consistency
-
-Example:
-
-```
-Total Aircraft → total_aircraft
-Active Personnel → active_personnel
-```
-
-* Handle **missing or null values**
-* Validate dataset consistency
-* Export a cleaned dataset ready for analytics tools
-
-##### 📦 Deliverables
-
-* Clean dataset:
-  `military_cleaned.csv`
-
-* Data cleaning notebook:
-  `clean_data.ipynb`
+**📦 Deliverables**
+- `military_cleaned.csv`  
+- `clean_data.ipynb` 
 
 ---
 
-### 📊 Output of Milestone 1
+### 📊 Output 
 
 By the end of this milestone, two datasets are produced:
 
