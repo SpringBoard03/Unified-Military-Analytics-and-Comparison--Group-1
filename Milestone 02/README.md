@@ -4,11 +4,9 @@
 
 ### 📌 Overview 
 
-Milestone 2 focuses on **transforming the cleaned military dataset into an analytics-ready dataset** by creating meaningful **Key Performance Indicators (KPIs)** and enriching the data with additional contextual information.
+Milestone 2 transforms the cleaned dataset into an **analytics-ready dataset** by generating key **KPIs** and enriching it with contextual metadata.  
 
-The goal of this stage is to move from **raw numerical metrics** to **interpretable analytical indicators** that allow deeper comparison between countries. These KPIs help highlight patterns such as military efficiency, economic commitment to defense, and relative military strength.
-
-The output of this milestone is a **structured dataset optimized for visualization tools like Tableau or Power BI**, enabling the development of interactive dashboards in the next milestone.
+This stage converts raw metrics into **meaningful insights** for comparing military strength, efficiency, and defense investment across countries, preparing the data for dashboard development.
 
 ---
 
@@ -26,56 +24,38 @@ The main objectives of this milestone are:
 ### 🛠 Tasks Performed
 
 #### 1. KPI Feature Engineering
+Created key analytical metrics:
+- Power Index Rank Gap  
+- Assets per Capita  
+- Defense Budget-to-GDP Ratio  
 
-New analytical metrics were created to provide deeper insights into military capabilities.
-
-Key KPIs generated include:
-
-* **Power Index Rank Gap**
-* **Assets per Capita**
-* **Defense Budget-to-GDP Ratio**
-
-These KPIs enable **comparative analysis and performance evaluation** between nations.
+These enable **comparative and performance analysis** across countries.
 
 #### 2. Metadata Enrichment
+Added contextual fields:
+- 🌍 Region  
+- 🗺 Continent  
+- 🤝 Alliance (e.g., NATO)  
 
-Additional contextual information was added to the dataset to improve analysis capabilities.
-
-New metadata fields include:
-
-* 🌍 **Region**
-* 🗺 **Continent**
-* 🤝 **Alliance membership** (e.g., NATO)
-
-This enrichment enables **regional filtering and grouping in dashboards**.
+Enables **regional and coalition-based analysis**.
 
 #### 3. Dataset Transformation
-
-To ensure compatibility with visualization platforms, the dataset was structured in multiple formats.
-
-Transformations performed include:
-
-* Creating **wide-format datasets** for KPI comparisons
-* Generating **long-format datasets** suitable for flexible visualizations
-* Standardizing column names and formats
-
-These transformations make the dataset **ready for direct use in dashboard tools**.
-
+- Converted data into **analysis-ready formats**  
+- Created structures for flexible visualization  
+- Standardized columns and formats
+  
 ---
 
 ### 📊 KPI Explanation
 
-#### 1. Power Index Rank Gap
+**1. Power Index Rank Gap**  
+Measures the **difference in military ranking** between countries.  
 
-This KPI measures the **difference in military strength ranking** between countries, helping identify the gap between top military powers and emerging forces.
+**2. Assets per Capita**  
+Evaluates **military resources relative to population**.  
 
-#### 2. Assets per Capita
-
-This metric evaluates **military asset availability relative to population size**, providing a perspective on resource distribution.
-
-#### 3. Budget-to-GDP Ratio
-
-This indicator measures the **percentage of national economic output spent on defense**, highlighting the level of economic commitment to military development.
+**3. Budget-to-GDP Ratio**  
+Shows **defense spending as a share of economic output**.  
 
 ---
 
@@ -85,13 +65,6 @@ The final output of this milestone is a **fully prepared dataset enriched with K
 | **File** | **Description** |
 |------|-------------|
 | **data/military_final.csv** | Final processed dataset containing cleaned military metrics and engineered KPIs |
-
-Dataset characteristics:
-
-* Includes original military metrics
-* Contains newly generated KPIs
-* Supports filtering by region and alliance
-* Structured for seamless integration with visualization tools
 
 ---
 
