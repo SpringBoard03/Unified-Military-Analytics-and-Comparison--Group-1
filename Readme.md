@@ -24,7 +24,7 @@
 
 ---
 
-## 🌍 Overview
+## 🌍Overview
 **UMAC** converts raw defense data into meaningful insights, helping users analyze capabilities, compare nations, and identify global trends.
 
 The dataset spans **140+ countries** and includes more than **50 defense indicators**:
@@ -216,7 +216,7 @@ Open `Milestone_3/UMAC_Dashboard_2025.pbix` in Power BI Desktop and load `milita
 
 ## 👥 Contributors
 
-**Group 1** — Unified Military Analytics & Comparison Project
+**Group 16** — Unified Military Analytics & Comparison Project
 
 *Developed as part of the SpringBoard03 academic initiative.*
 
