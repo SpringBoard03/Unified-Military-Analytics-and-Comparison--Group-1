@@ -131,7 +131,6 @@ Run `Milestone_1/Data_Scraping_and_Cleaning.ipynb`
 - Capture manpower, equipment, and budget details  
 - Generate → `military_raw_data.csv`
 
----
 
 #### Step 2 — Data Processing & KPI Creation
 
@@ -143,7 +142,6 @@ Run `Milestone_2/Exploratory_Data_Analysis.ipynb`
 - Create key performance indicators (KPIs)  
 - Generate → `military_final.csv`
 
----
 
 #### Step 3 — Dashboard Setup
 
@@ -166,7 +164,6 @@ Open `Milestone_3/UMAC_Dashboard_2025.pbix` in Power BI Desktop and load `milita
 - ✔️ Retrieve defense spending details  
 - 📁 **Output:** `military_raw_data.csv`
 
----
 
 ### Milestone 2 — Data Processing & KPI Development
 
@@ -181,7 +178,6 @@ Open `Milestone_3/UMAC_Dashboard_2025.pbix` in Power BI Desktop and load `milita
 
 📁 **Output:** `military_final.csv`
 
----
 
 ### Milestone 3 — Dashboard Development
 
@@ -192,7 +188,6 @@ Open `Milestone_3/UMAC_Dashboard_2025.pbix` in Power BI Desktop and load `milita
 - 🌍 Region-based filters & drilldowns  
 - 📉 Visual analysis of assets & manpower  
 
----
 
 ### Milestone 4 — Documentation
 
