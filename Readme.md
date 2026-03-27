@@ -40,7 +40,7 @@ The dataset spans **140+ countries** and includes more than **50 defense indicat
 
 ---
 
-## 🏗️ Workflow
+## 🏗️Workflow
 ```
 ┌──────────────────────────────────┐
 │   Source Data (Defense Metrics)  │
@@ -79,7 +79,7 @@ The dataset spans **140+ countries** and includes more than **50 defense indicat
 ```
 ---
 
-## 📁 Project Structure
+## 📁Project Structure
 
 ```
 Unified-Military-Analytics/
@@ -111,7 +111,7 @@ Unified-Military-Analytics/
 
 ---
 
-## 🚦 Getting Started
+## 🚦Getting Started
 
 ### Requirements: Python 3.8+, Power BI
 ```bash
@@ -155,7 +155,7 @@ Open `Milestone_3/UMAC_Dashboard_2025.pbix` in Power BI Desktop and load `milita
 
 ---
 
-## 📈 Project Milestones
+## 📈Project Milestones
 
 ### Milestone 1 — Data Acquisition
 
@@ -202,7 +202,7 @@ Open `Milestone_3/UMAC_Dashboard_2025.pbix` in Power BI Desktop and load `milita
 
 ---
 
-## 🧩 Tech Stack
+## 🧩Tech Stack
 
 | Category | Tools & Technologies |
 |---|---|
@@ -214,7 +214,7 @@ Open `Milestone_3/UMAC_Dashboard_2025.pbix` in Power BI Desktop and load `milita
 
 ---
 
-## 👥 Contributors
+## 👥Contributors
 
 **Group 16** — Unified Military Analytics & Comparison Project
 
@@ -222,7 +222,7 @@ Open `Milestone_3/UMAC_Dashboard_2025.pbix` in Power BI Desktop and load `milita
 
 ---
 
-## 📄 License
+## 📄License
 
 This project is developed for **academic and research purposes only**.
 
