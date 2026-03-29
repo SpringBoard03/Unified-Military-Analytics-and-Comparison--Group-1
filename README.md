@@ -44,13 +44,12 @@ MILITARY_SCRAPER/
 ---
 
 ## Data Pipeline
-┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
-│ Acquisition │ → │ Processing │ → │ Analytics │
-│ │ │ │ │ │
-│ • Web Scraping │ │ • Data Cleaning │ │ • KPI Engine │
-│ • 145 Countries │ │ • Standardize │ │ • Dashboard │
-│ • 50+ Metrics │ │ • Validate │ │ • Insights │
-└─────────────────┘ └─────────────────┘ └─────────────────┘
+
+| Stage | Actions |
+|-------|---------|
+| **Acquisition** | Web Scraping → 145 Countries → 50+ Metrics |
+| **Processing** | Data Cleaning → Standardize → Validate |
+| **Analytics** | KPI Engine → Dashboard → Insights |
 
 ---
 
