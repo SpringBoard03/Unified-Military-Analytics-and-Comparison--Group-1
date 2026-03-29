@@ -66,7 +66,7 @@ By leveraging our processed data, we will build a **dynamic visual analytics int
 - 🌍 Nation Overview Dashboard
 - ⚔️ Compare Powers Dashboard
 - 🤝 Coalition Builder Dashboard
-- 💾 Delivered File: `global_military_firepower_2026.ipbx`
+- 💾 Delivered File: `Dasboard_2.pdf`, `Dashboard 1.pbix`, `Dashboard 4.pbix`, `Dashboard_3.pdf`
 
 ---
 
