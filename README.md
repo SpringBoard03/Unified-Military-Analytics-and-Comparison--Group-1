@@ -36,10 +36,15 @@ The project is structured into four sequential milestones:
 MILITARY_SCRAPER/
 
 ├── milestone_01/ # Data Collection & Cleaning
+
 ├── milestone_02/ # KPI Engineering & Feature Creation
+
 ├── milestone_03/ # Dashboard Development
+
 ├── milestone_04/ # Final Documentation
+
 ├── LICENSE # MIT License
+
 └── README.md # Project documentation
 
 ---
