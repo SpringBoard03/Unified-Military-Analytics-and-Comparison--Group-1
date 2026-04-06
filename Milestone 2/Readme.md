@@ -25,6 +25,7 @@ The dataset was structured to support Power BI dashboard requirements:
 | File | Description |
 | :--- | :--- |
 | `Exploratory_Data_Analysis.ipynb` | Python notebook containing the step-by-step cleaning, normalization process, and automated KPI feature engineering. |
+| `Nation Overview.pbix` | Power BI report file for the Nation Overview dashboard. |
 | `military_final.csv` | The final analytics-ready dataset including all 50+ indicators and new KPIs. |
 
 ## ✅ Evaluation Benchmarks
