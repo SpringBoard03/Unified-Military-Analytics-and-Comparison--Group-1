@@ -27,6 +27,7 @@ Once the raw data was secured, we performed the following processing steps:
 | File | Description |
 | :--- | :--- |
 | `Data_Scraping_and_Cleaning.ipynb` | The primary script/notebook containing the scraping and cleaning logic. |
+| `Quick Stats.pbix` | Power BI report file for quick statistics on the military data. |
 | `military_raw_data.csv` | The initial dataset containing original scraped values. |
 | `military_cleaned_data.csv` | The final processed dataset ready for Milestone 2. |
 
