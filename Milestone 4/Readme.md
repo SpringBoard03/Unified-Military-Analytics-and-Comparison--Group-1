@@ -63,7 +63,7 @@ Separate measure groups were created for Coalition 1 and Coalition 2 using bookm
 | File | Description |
 |---|---|
 | `Coalition Builder.pbix` | Power BI report file containing the fully developed Coalition Builder page with all visuals, DAX measures, and filter logic. |
-| `Dashboard_4.pdf` | Exported PDF snapshot of the Coalition Builder page for stakeholder review. |
+| `Coalition Builder.pdf` | Exported PDF snapshot of the Coalition Builder page for stakeholder review. |
 
 ---
 
@@ -80,4 +80,4 @@ Separate measure groups were created for Coalition 1 and Coalition 2 using bookm
 
 Successfully delivered the Coalition Builder page, enabling multi-nation coalition assembly and real-time aggregated military comparison. The page supports up to the full dataset of countries split across two coalitions, with live-updating KPI cards, manpower breakdowns, and a clean VS comparison layout.
 
-**Status: Milestone 3 In Progress.** The Coalition Builder page is complete. Remaining dashboard pages (Quick Stats, Nation Overview, Compare Powers) are scheduled for finalisation in the second half of Week 6.
+**Status: Milestone 4 Completed.** The Coalition Builder page is complete. Remaining dashboard pages (Quick Stats, Nation Overview, Compare Powers) have been finalised in the respective milestones.
