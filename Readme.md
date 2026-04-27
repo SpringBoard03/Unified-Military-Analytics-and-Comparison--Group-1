@@ -1,4 +1,4 @@
-# Unified Military Analytics & Comparison (UMAC)
+# Unified Military Analytics & Comparison
 
 ### *Global defense intelligence — automated, analyzed, visualized.*
 
