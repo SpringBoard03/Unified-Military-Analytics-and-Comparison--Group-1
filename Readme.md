@@ -259,10 +259,4 @@ pip install -r requirements.txt
 
 ---
 
-## 📄 License
-
-This project is developed for **academic and research purposes only**.
-
----
-
 *Built for global defense analytics · UMAC 2025*
